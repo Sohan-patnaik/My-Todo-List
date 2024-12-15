@@ -100,7 +100,7 @@ ul li span{
   color: #555;
   line-height: 40px;
   text-align: center;
-  transition: 0.2s;
+  
 }
 ul li span:hover{
   background-color: #a19c9c;
