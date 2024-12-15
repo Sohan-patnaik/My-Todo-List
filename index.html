@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+
+  <body>
+   
+    <div class="container" id="con">
+    
+     <hr>
+      <div class="todo-list">
+        <h2>Todo-List <img src="todo.webp" alt="todo" /></h2>
+        <div class="row">
+          <input
+            type="text"
+            name="todo_input"
+            id="todo_input"
+            placeholder="What to do today"
+          />
+          <button onclick="addTask()">ADD</button>
+        </div>
+        <p style="text-align: center" id="btn1"></p>
+        <p style="text-align: center" id="btn2"></p>
+        <ul id="list_container">
+          <!--<li class="checked">1</li>
+        <li>2</li>
+        <li>3</li>-->
+        </ul>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
